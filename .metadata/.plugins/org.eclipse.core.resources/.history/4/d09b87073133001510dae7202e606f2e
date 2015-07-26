@@ -1,9 +1,0 @@
-package edu.auburn.szw0069.StrategyPattern;
-
-public abstract class Duck {
-	
-	QuackBehaviour 	quackBehaviour;
-	FlyBehaviour 	flyBehaviour;
-	public abstract void display();
-
-}

@@ -1,5 +1,0 @@
-package edu.auburn.szw0069.StrategyPattern;
-
-public interface QuackBehaviour {
-
-}
