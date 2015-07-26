@@ -1,0 +1,5 @@
+package edu.auburn.szw0069.StrategyPattern;
+
+public class MallardDuck {
+
+}

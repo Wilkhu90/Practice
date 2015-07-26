@@ -1,0 +1,22 @@
+package edu.auburn.szw0069.ObserverPattern;
+
+import javax.swing.*;
+
+public class JButtonObserver {
+	JFrame frame;
+
+	public static void main(String[] args) {
+		JButtonObserver JObs = new JButtonObserver();
+		JObs.go();
+
+	}
+
+	private void go() {
+		frame = new JFrame();
+		JButton button = new JButton();
+		button.addActionListener(new AngelListener());
+		button.addActionListener(new DevilListener());
+		
+	}
+
+}

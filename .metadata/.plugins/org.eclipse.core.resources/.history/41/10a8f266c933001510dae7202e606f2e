@@ -1,0 +1,5 @@
+package edu.auburn.szw0069.ObserverPattern;
+
+public class WeatherData {
+
+}
