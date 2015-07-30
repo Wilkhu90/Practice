@@ -1,13 +1,10 @@
-package edu.auburn.szw0069.FactoryPattern;
+package edu.auburn.szw0069.AbstractFactoryPattern;
 
 public class PizzaSimulator {
 
 	public static void main(String[] args) {
 		
 		PizzaStore nyStore = new NYPizzaStore();
-		nyStore.orderPizza("Three");
-		
-
+		nyStore.orderPizza("C");
 	}
-
 }
