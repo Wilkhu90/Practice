@@ -1,4 +1,4 @@
-package edu.auburn.AdapterPattern;
+package edu.auburn.szw0069.AdapterPattern;
 
 public class AdapterClient {
 	public static void main(String [] args) {

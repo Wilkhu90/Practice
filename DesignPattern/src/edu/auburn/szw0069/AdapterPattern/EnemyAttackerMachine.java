@@ -1,4 +1,4 @@
-package edu.auburn.AdapterPattern;
+package edu.auburn.szw0069.AdapterPattern;
 
 public class EnemyAttackerMachine implements EnemyAttacker{
 
