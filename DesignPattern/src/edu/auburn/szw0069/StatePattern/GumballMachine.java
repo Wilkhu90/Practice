@@ -30,6 +30,7 @@ public class GumballMachine {
 	}
 	public void turnCrank(){
 		state.turnCrank();
+		state.dispense();
 	}
 	void setState(State state){
 		this.state = state;
@@ -65,6 +66,18 @@ public class GumballMachine {
 	public State getHasQuarterState() {
 		return hasQuarterState;
 	}
-
+	
+	public String toString(){
+		String string;
+		System.out.println("Mighty Gumball, Inc.");
+		System.out.println("Inventory: "+ count +" gumballs");
+		if (count>0){
+			string = "Machine is waiting for quarter.\n";
+		}
+		else{
+			string = "Machine is sold out.\n";
+		}
+		return string;
+	}
 
 }
