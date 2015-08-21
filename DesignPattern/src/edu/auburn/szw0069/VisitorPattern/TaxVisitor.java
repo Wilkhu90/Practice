@@ -4,10 +4,10 @@ import java.text.DecimalFormat;
 
 public class TaxVisitor implements Visitor{
 	
-	DecimalFormat df = new DecimalFormat("#.##");
+	DecimalFormat df;
 	
-	public TaxVisitor() {
-		// TODO Auto-generated constructor stub
+	public TaxVisitor(String decimalPoints) {
+		df = new DecimalFormat(decimalPoints);
 	}
 
 	@Override
